@@ -1,9 +1,0 @@
-Calibration Node
-----------------
-
-Functionality: Record multiple poses of the robot and multiple point clouds.
-Broadcast robot poses as rviz interactive markers.
-
-1. Record robot pose and broadcast as interactive marker
-
-
