@@ -1,0 +1,78 @@
+[submodule "src/bci_project_ws"]
+	path = src/bci_project_ws
+	url = git@github.com:CURG/barrett_model.git
+[submodule "src/barrett_model"]
+	path = src/barrett_model
+	url = git@github.com:CURG/barrett_model.git
+[submodule "src/bci_experiment_launch"]
+	path = src/bci_experiment_launch
+	url = git@github.com:CURG/bci_experiment_launch.git
+[submodule "src/calibration"]
+	path = src/calibration
+	url = git@github.com:CURG/calibration.git
+[submodule "src/checkerboard_detection"]
+	path = src/checkerboard_detection
+	url = git@github.com:CURG/checkerboard_detection.git
+[submodule "src/graspit_msgs"]
+	path = src/graspit_msgs
+	url = git@github.com:CURG/graspit_msgs.git
+[submodule "src/graspit_python_node"]
+	path = src/graspit_python_node
+	url = git@github.com:CURG/graspit_python_node.git
+[submodule "src/lcsr_tf_tools"]
+	path = src/lcsr_tf_tools
+	url = https://github.com/jhu-lcsr/lcsr_tf_tools.git
+[submodule "src/mock_model_rec2"]
+	path = src/mock_model_rec2
+	url = git@github.com:CURG/mock_model_rec2.git
+[submodule "src/mock_vision"]
+	path = src/mock_vision
+	url = git@github.com:CURG/mock_vision.git
+[submodule "src/model_rec2"]
+	path = src/model_rec2
+	url = git@github.com:CURG/model_rec2.git
+[submodule "src/moveit_trajectory_planner"]
+	path = src/moveit_trajectory_planner
+	url = git@github.com:CURG/moveit_trajectory_planner.git
+[submodule "src/object_models"]
+	path = src/object_models
+	url = git@github.com:CURG/object_models.git
+[submodule "src/openni_launch"]
+	path = src/openni_launch
+	url = https://github.com/ros-drivers/openni_launch.git
+[submodule "src/owd"]
+	path = src/owd
+	url = git@github.com:CURG/owd.git
+[submodule "src/pc_filter"]
+	path = src/pc_filter
+	url = git@github.com:CURG/pc_filter.git
+[submodule "src/pose_msgs"]
+	path = src/pose_msgs
+	url = git@github.com:CURG/pose_msgs.git
+[submodule "src/pr_msgs"]
+	path = src/pr_msgs
+	url = git@github.com:CURG/pr_msgs.git
+[submodule "src/rqt_monitor"]
+	path = src/rqt_monitor
+	url = git@github.com:CURG/rqt_monitor.git
+[submodule "src/rviz"]
+	path = src/rviz
+	url = git@github.com:CURG/rviz.git
+[submodule "src/staubli"]
+	path = src/staubli
+	url = git@github.com:CURG/staubli.git
+[submodule "src/staubli_barretthand_description"]
+	path = src/staubli_barretthand_description
+	url = git@github.com:CURG/staubli_barretthand_description.git
+[submodule "src/staubli_barretthand_moveit_config"]
+	path = src/staubli_barretthand_moveit_config
+	url = git@github.com:CURG/staubli_barretthand_moveit_config.git
+[submodule "src/staubli_tx60"]
+	path = src/staubli_tx60
+	url = git@github.com:CURG/staubliTX60.git
+[submodule "src/trajectory_planner"]
+	path = src/trajectory_planner
+	url = git@github.com:CURG/trajectory_planner.git
+[submodule "src/v4r_libraries"]
+	path = src/v4r_libraries
+	url = git@github.com:CURG/v4r_libraries.git
