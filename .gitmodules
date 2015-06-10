@@ -70,6 +70,7 @@
 [submodule "src/trajectory_planner"]
 	path = src/trajectory_planner
 	url = git@github.com:CURG/trajectory_planner.git
+	branch = mico-branch
 [submodule "src/v4r_libraries"]
 	path = src/v4r_libraries
 	url = git@github.com:CURG/v4r_libraries.git
