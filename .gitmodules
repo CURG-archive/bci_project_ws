@@ -31,6 +31,7 @@
 [submodule "src/moveit_trajectory_planner"]
 	path = src/moveit_trajectory_planner
 	url = git@github.com:CURG/moveit_trajectory_planner.git
+	branch = mico-branch
 [submodule "src/object_models"]
 	path = src/object_models
 	url = git@github.com:CURG/object_models.git
@@ -70,7 +71,6 @@
 [submodule "src/trajectory_planner"]
 	path = src/trajectory_planner
 	url = git@github.com:CURG/trajectory_planner.git
-	branch = mico-branch
 [submodule "src/v4r_libraries"]
 	path = src/v4r_libraries
 	url = git@github.com:CURG/v4r_libraries.git
