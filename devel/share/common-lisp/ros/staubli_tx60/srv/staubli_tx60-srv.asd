@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "staubli_tx60-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "ResetMotion" :depends-on ("_package_ResetMotion"))
+    (:file "_package_ResetMotion" :depends-on ("_package"))
+    (:file "GetRotMat" :depends-on ("_package_GetRotMat"))
+    (:file "_package_GetRotMat" :depends-on ("_package"))
+    (:file "GetCartesian" :depends-on ("_package_GetCartesian"))
+    (:file "_package_GetCartesian" :depends-on ("_package"))
+    (:file "FwdKinematics" :depends-on ("_package_FwdKinematics"))
+    (:file "_package_FwdKinematics" :depends-on ("_package"))
+    (:file "GetJoints" :depends-on ("_package_GetJoints"))
+    (:file "_package_GetJoints" :depends-on ("_package"))
+    (:file "SetTrajectoryParams" :depends-on ("_package_SetTrajectoryParams"))
+    (:file "_package_SetTrajectoryParams" :depends-on ("_package"))
+    (:file "InvKinematics" :depends-on ("_package_InvKinematics"))
+    (:file "_package_InvKinematics" :depends-on ("_package"))
+  ))

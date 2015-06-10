@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pose_msgs")
+set(pose_msgs_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(pose_msgs_DEPRECATED "")
+set(pose_msgs_VERSION "1.0.0")
+set(pose_msgs_BUILD_DEPENDS "roscpp" "geometry_msgs" "opencv2" "tf" "v4r_libraries" "message_generation")
+set(pose_msgs_RUN_DEPENDS "message_runtime" "message_generation")
+set(pose_msgs_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,6 @@
+set(trajectory_planner_SETUP_PY_VERSION "1.0.0")
+set(trajectory_planner_SETUP_PY_SCRIPTS "")
+set(trajectory_planner_SETUP_PY_PACKAGES "trajectory_planner")
+set(trajectory_planner_SETUP_PY_PACKAGE_DIRS "trajectory_planner")
+set(trajectory_planner_SETUP_PY_MODULES "")
+set(trajectory_planner_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,8 @@
+prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/install
+
+Name: object_models
+Description: Description of object_models
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/install/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "object_models")
+set(object_models_MAINTAINER "jvarley <jvarley@todo.todo>")
+set(object_models_DEPRECATED "")
+set(object_models_VERSION "0.0.0")
+set(object_models_BUILD_DEPENDS )
+set(object_models_RUN_DEPENDS )
+set(object_models_BUILDTOOL_DEPENDS "catkin")

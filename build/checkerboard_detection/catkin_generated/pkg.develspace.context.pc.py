@@ -1,0 +1,8 @@
+# generated from catkin/cmake/template/pkg.context.pc.in
+CATKIN_PACKAGE_PREFIX = ""
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/checkerboard_detection/include".split(';') if "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/checkerboard_detection/include" != "" else []
+PROJECT_CATKIN_DEPENDS = "geometry_msgs;pose_msgs".replace(';', ' ')
+PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
+PROJECT_NAME = "checkerboard_detection"
+PROJECT_SPACE_DIR = "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel"
+PROJECT_VERSION = "1.0.0"

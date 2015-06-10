@@ -1,0 +1,15 @@
+(cl:defpackage pose_msgs-srv
+  (:use )
+  (:export
+   "GETPOSE"
+   "<GETPOSE-REQUEST>"
+   "GETPOSE-REQUEST"
+   "<GETPOSE-RESPONSE>"
+   "GETPOSE-RESPONSE"
+   "GETPOSES"
+   "<GETPOSES-REQUEST>"
+   "GETPOSES-REQUEST"
+   "<GETPOSES-RESPONSE>"
+   "GETPOSES-RESPONSE"
+  ))
+

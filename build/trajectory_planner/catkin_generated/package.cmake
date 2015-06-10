@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "trajectory_planner")
+set(trajectory_planner_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(trajectory_planner_DEPRECATED "")
+set(trajectory_planner_VERSION "1.0.0")
+set(trajectory_planner_BUILD_DEPENDS "rospy" "std_msgs" "std_srvs" "geometry_msgs" "graspit_msgs" "tf_conversions" "tf" "staubli_tx60" "model_rec2" "pr_msgs")
+set(trajectory_planner_RUN_DEPENDS "rospy" "std_msgs" "std_srvs" "geometry_msgs" "graspit_msgs" "tf_conversions" "tf" "staubli_tx60" "model_rec2" "pr_msgs")
+set(trajectory_planner_BUILDTOOL_DEPENDS "catkin")

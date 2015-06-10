@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pr_msgs")
+set(pr_msgs_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(pr_msgs_DEPRECATED "")
+set(pr_msgs_VERSION "1.0.0")
+set(pr_msgs_BUILD_DEPENDS "std_msgs" "geometry_msgs" "sensor_msgs" "actionlib_msgs" "message_generation" "tf")
+set(pr_msgs_RUN_DEPENDS "message_runtime" "std_msgs" "geometry_msgs" "sensor_msgs" "actionlib_msgs" "tf")
+set(pr_msgs_BUILDTOOL_DEPENDS "catkin")

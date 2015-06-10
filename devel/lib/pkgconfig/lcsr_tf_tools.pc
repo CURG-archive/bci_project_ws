@@ -1,0 +1,8 @@
+prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel
+
+Name: lcsr_tf_tools
+Description: Description of lcsr_tf_tools
+Version: 0.1.0
+Cflags: -I/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/include -I/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/lcsr_tf_tools/include -I/usr/include -I/opt/ros/hydro/include
+Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/lib -l:/usr/lib/libtinyxml.so -l:/opt/ros/hydro/lib/liburdfdom_sensor.so -l:/opt/ros/hydro/lib/liburdfdom_model_state.so -l:/opt/ros/hydro/lib/liburdfdom_model.so -l:/opt/ros/hydro/lib/liburdfdom_world.so -l:/opt/ros/hydro/lib/libconsole_bridge.so
+Requires: urdf

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "moveit_trajectory_planner")
+set(moveit_trajectory_planner_MAINTAINER "jaredweiss <jaredweiss@todo.todo>")
+set(moveit_trajectory_planner_DEPRECATED "")
+set(moveit_trajectory_planner_VERSION "0.0.0")
+set(moveit_trajectory_planner_BUILD_DEPENDS "roscpp" "std_msgs" "trajectory_msgs" "message_generation" "rospy" "model_rec2" "geometry_msgs" "graspit_msgs" "moveit_msgs")
+set(moveit_trajectory_planner_RUN_DEPENDS "roscpp" "std_msgs" "trajectory_msgs" "message_runtime" "rospy" "model_rec2" "geometry_msgs" "graspit_msgs" "moveit_msgs")
+set(moveit_trajectory_planner_BUILDTOOL_DEPENDS "catkin")

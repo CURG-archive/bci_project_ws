@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "calibration")
+set(calibration_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(calibration_DEPRECATED "")
+set(calibration_VERSION "1.0.0")
+set(calibration_BUILD_DEPENDS "tf" "bullet" "roscpp" "rospy" "tf_conversions" "std_msgs" "staubli_tx60")
+set(calibration_RUN_DEPENDS "tf" "roscpp")
+set(calibration_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/install
+
+Name: staubli_barretthand_description
+Description: Description of staubli_barretthand_description
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/install/lib 
+Requires: 

@@ -1,0 +1,33 @@
+<package>
+<name>checkerboard_detection</name>
+<version>1.0.0</version>
+  <maintainer email="jvarley@cs.columbia.edu">Jake Varley</maintainer>
+  <description>
+  The checkerboard_detection package can be used to determinate the position and the orientation of a checkerboard of the known size within an image with calibration information (checkerboard_pose node). 
+  The position of the board/camera will be published as tf frame. 
+  Stored data can be published again with using by using static_pose node with constant frequency or synchronized with published frames using the checkerboard_pose node.
+  </description>
+  <author>Markus Bader</author>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/checkerboard_detection</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>pose_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>image_geometry</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>opencv2</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>v4r_libraries</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>pose_msgs</run_depend>
+
+
+</package>
+
+

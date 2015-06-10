@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "model_rec2")
+set(model_rec2_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>, Jon Weisz <none@gmail.com>")
+set(model_rec2_DEPRECATED "")
+set(model_rec2_VERSION "1.0.0")
+set(model_rec2_BUILD_DEPENDS "message_generation" "std_srvs" "geometry_msgs" "openni_launch" "roscpp" "sensor_msgs" "pcl_ros" "tf_conversions" "eigen_conversions" "roscpp" "roslib" "tf" "pcl" "eigen_conversions")
+set(model_rec2_RUN_DEPENDS "message_runtime" "roscpp" "roslib" "tf" "tf_conversions" "pcl_ros" "pcl" "geometry_msgs" "eigen_conversions" "message_generation")
+set(model_rec2_BUILDTOOL_DEPENDS "catkin")

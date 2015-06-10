@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pc_filter")
+set(pc_filter_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(pc_filter_DEPRECATED "")
+set(pc_filter_VERSION "1.0.0")
+set(pc_filter_BUILD_DEPENDS "roscpp" "pcl" "pcl_ros" "sensor_msgs" "tf")
+set(pc_filter_RUN_DEPENDS "roscpp" "pcl" "pcl_ros" "sensor_msgs")
+set(pc_filter_BUILDTOOL_DEPENDS "catkin")

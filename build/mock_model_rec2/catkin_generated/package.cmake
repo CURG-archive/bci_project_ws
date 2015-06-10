@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mock_model_rec2")
+set(mock_model_rec2_MAINTAINER "jvarley <jvarley@todo.todo>")
+set(mock_model_rec2_DEPRECATED "")
+set(mock_model_rec2_VERSION "0.0.0")
+set(mock_model_rec2_BUILD_DEPENDS )
+set(mock_model_rec2_RUN_DEPENDS )
+set(mock_model_rec2_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,26 @@
+/home/mpcadosch/bci_project_ws/src/barrett_model \t * master \n
+/home/mpcadosch/bci_project_ws/src/bci_experiment_launch \t   master
+* mico-branch \n
+/home/mpcadosch/bci_project_ws/src/calibration \t * master \n
+/home/mpcadosch/bci_project_ws/src/checkerboard_detection \t * master \n
+/home/mpcadosch/bci_project_ws/src/graspit_msgs \t * master \n
+/home/mpcadosch/bci_project_ws/src/graspit_python_node \t * master \n
+/home/mpcadosch/bci_project_ws/src/mock_graspit \t * master \n
+/home/mpcadosch/bci_project_ws/src/mock_model_rec2 \t * master \n
+/home/mpcadosch/bci_project_ws/src/mock_vision \t * master \n
+/home/mpcadosch/bci_project_ws/src/model_rec2 \t * master \n
+/home/mpcadosch/bci_project_ws/src/moveit_trajectory_planner \t * master \n
+/home/mpcadosch/bci_project_ws/src/object_models \t * master \n
+/home/mpcadosch/bci_project_ws/src/owd \t * master \n
+/home/mpcadosch/bci_project_ws/src/pc_filter \t * master \n
+/home/mpcadosch/bci_project_ws/src/pose_msgs \t * master \n
+/home/mpcadosch/bci_project_ws/src/pr_msgs \t * master \n
+/home/mpcadosch/bci_project_ws/src/rqt_monitor \t * master \n
+/home/mpcadosch/bci_project_ws/src/rviz \t * hydro-devel
+  indigo-devel \n
+/home/mpcadosch/bci_project_ws/src/staubli \t * master \n
+/home/mpcadosch/bci_project_ws/src/staubli_barretthand_description \t * master \n
+/home/mpcadosch/bci_project_ws/src/staubli_barretthand_moveit_config \t * master \n
+/home/mpcadosch/bci_project_ws/src/staubli_tx60 \t * master \n
+/home/mpcadosch/bci_project_ws/src/trajectory_planner \t * master \n
+/home/mpcadosch/bci_project_ws/src/v4r_libraries \t * master \n

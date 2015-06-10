@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "graspit_msgs")
+set(graspit_msgs_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(graspit_msgs_DEPRECATED "")
+set(graspit_msgs_VERSION "1.0.0")
+set(graspit_msgs_BUILD_DEPENDS "roscpp" "geometry_msgs" "message_generation")
+set(graspit_msgs_RUN_DEPENDS "message_runtime" "message_generation")
+set(graspit_msgs_BUILDTOOL_DEPENDS "catkin")

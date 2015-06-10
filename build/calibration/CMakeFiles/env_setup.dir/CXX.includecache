@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/calibration/include/constants.hh
+tf/LinearMath/Transform.h
+-
+
+/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/calibration/src/env_setup.cpp
+ros/ros.h
+-
+tf/transform_broadcaster.h
+-
+constants.hh
+/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/calibration/src/constants.hh
+

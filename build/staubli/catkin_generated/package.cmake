@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "staubli")
+set(staubli_MAINTAINER "mentar <mentaris@gmail.com>")
+set(staubli_DEPRECATED "")
+set(staubli_VERSION "0.1.0")
+set(staubli_BUILD_DEPENDS )
+set(staubli_RUN_DEPENDS "robot_state_publisher" "joint_state_publisher" "xacro" "rviz" "pr2_description")
+set(staubli_BUILDTOOL_DEPENDS "catkin")

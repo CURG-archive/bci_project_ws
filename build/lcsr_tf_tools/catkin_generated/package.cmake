@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "lcsr_tf_tools")
+set(lcsr_tf_tools_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
+set(lcsr_tf_tools_DEPRECATED "")
+set(lcsr_tf_tools_VERSION "0.1.0")
+set(lcsr_tf_tools_BUILD_DEPENDS "tf" "cmake_modules" "geometry_msgs" "interactive_markers" "visualization_msgs" "urdf" "urdfdom" "tinyxml")
+set(lcsr_tf_tools_RUN_DEPENDS "rospy" "python_orocos_kdl" "tf" "geometry_msgs" "interactive_markers" "visualization_msgs" "urdf" "urdfdom" "tinyxml")
+set(lcsr_tf_tools_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,1474 @@
+# generated from genmsg/cmake/pkg-genmsg.cmake.em
+
+message(STATUS "pr_msgs: 42 messages, 33 services")
+
+set(MSG_I_FLAGS "-Ipr_msgs:/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg;-Ipr_msgs:/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/hydro/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/hydro/share/sensor_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/hydro/share/actionlib_msgs/cmake/../msg")
+
+# Find all generators
+find_package(gencpp REQUIRED)
+find_package(genlisp REQUIRED)
+find_package(genpy REQUIRED)
+
+add_custom_target(pr_msgs_generate_messages ALL)
+
+#
+#  langs = gencpp;genlisp;genpy
+#
+
+### Section generating for lang: gencpp
+### Generating Messages
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/OccGrid3D.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/IndexedJointValues.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPose.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/TrajInfo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/BHTactile.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/HandOff.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MaglevSense.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinate.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MaglevFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Vector3D.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/BHState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendedTrajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionFeedback.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionResult.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/DefineLocation.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ForceRead.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPoseList.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPose.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Pose.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/oldAppletCommand.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MassProperties.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMInternals.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PIDgains.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/AppletState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/QR.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PIDgains.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMJointState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WamSetupSeaCtrl.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/RailsState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/TrajInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Servo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/oldAppletState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Trimesh.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinateList.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinate.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/RotatedLaserScan.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/sensor_msgs/cmake/../msg/LaserScan.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+
+### Generating Services
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetJointStiffness.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AppletCommand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResumeTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/CancelAllTrajectories.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetHandTorque.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ReplaceTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GetHandProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetStiffness.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AddPrecomputedTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendedTrajectory.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetJointOffsets.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/DeleteTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GetDOF.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/PauseTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKd.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetTactileInputThreshold.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AddTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKi.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResetHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Reset.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/MoveHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetForceInputThreshold.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResetFinger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/RelaxHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetSpeed.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ArmConfigCheck.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/sensor_msgs/cmake/../msg/JointState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GuardedMove.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlTorqLimit.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetExtraMass.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MassProperties.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetHandProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Idle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetStallSensitivity.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Enable.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_cpp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKp.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+)
+
+### Generating Module File
+_generate_module_cpp(pr_msgs
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+  "${ALL_GEN_OUTPUT_FILES_cpp}"
+)
+
+add_custom_target(pr_msgs_generate_messages_cpp
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_cpp}
+)
+add_dependencies(pr_msgs_generate_messages pr_msgs_generate_messages_cpp)
+
+# target for backward compatibility
+add_custom_target(pr_msgs_gencpp)
+add_dependencies(pr_msgs_gencpp pr_msgs_generate_messages_cpp)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pr_msgs_generate_messages_cpp)
+
+### Section generating for lang: genlisp
+### Generating Messages
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/OccGrid3D.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/IndexedJointValues.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPose.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/TrajInfo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/BHTactile.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/HandOff.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MaglevSense.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinate.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MaglevFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Vector3D.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/BHState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendedTrajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionFeedback.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionResult.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/DefineLocation.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ForceRead.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPoseList.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPose.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Pose.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/oldAppletCommand.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MassProperties.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMInternals.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PIDgains.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/AppletState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/QR.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PIDgains.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMJointState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WamSetupSeaCtrl.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/RailsState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/TrajInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Servo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/oldAppletState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Trimesh.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinateList.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinate.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/RotatedLaserScan.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/sensor_msgs/cmake/../msg/LaserScan.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+
+### Generating Services
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetJointStiffness.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AppletCommand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResumeTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/CancelAllTrajectories.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetHandTorque.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ReplaceTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GetHandProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetStiffness.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AddPrecomputedTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendedTrajectory.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetJointOffsets.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/DeleteTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GetDOF.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/PauseTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKd.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetTactileInputThreshold.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AddTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKi.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResetHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Reset.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/MoveHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetForceInputThreshold.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResetFinger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/RelaxHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetSpeed.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ArmConfigCheck.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/sensor_msgs/cmake/../msg/JointState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GuardedMove.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlTorqLimit.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetExtraMass.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MassProperties.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetHandProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Idle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetStallSensitivity.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Enable.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_lisp(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKp.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+)
+
+### Generating Module File
+_generate_module_lisp(pr_msgs
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+  "${ALL_GEN_OUTPUT_FILES_lisp}"
+)
+
+add_custom_target(pr_msgs_generate_messages_lisp
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_lisp}
+)
+add_dependencies(pr_msgs_generate_messages pr_msgs_generate_messages_lisp)
+
+# target for backward compatibility
+add_custom_target(pr_msgs_genlisp)
+add_dependencies(pr_msgs_genlisp pr_msgs_generate_messages_lisp)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pr_msgs_generate_messages_lisp)
+
+### Section generating for lang: genpy
+### Generating Messages
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/OccGrid3D.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/IndexedJointValues.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPose.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/TrajInfo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/BHTactile.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/HandOff.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MaglevSense.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinate.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MaglevFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Vector3D.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/BHState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendedTrajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalGoal.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionFeedback.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionResult.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/DefineLocation.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ForceRead.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPoseList.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/ObjectPose.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/NameTypeValue.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Pose.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/oldAppletCommand.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MassProperties.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMInternals.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PIDgains.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/AppletState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/QR.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PIDgains.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMJointState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WamSetupSeaCtrl.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalResult.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/RailsState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/TrajInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Servo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/oldAppletState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Action.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Trimesh.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Point32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/share/pr_msgs/msg/SignalFeedback.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/hydro/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinateList.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/PixelCoordinate.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_msg_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/RotatedLaserScan.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/sensor_msgs/cmake/../msg/LaserScan.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+
+### Generating Services
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetJointStiffness.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AppletCommand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResumeTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/CancelAllTrajectories.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetHandTorque.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ReplaceTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GetHandProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetStiffness.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AddPrecomputedTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendedTrajectory.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/WAMPrecomputedBlendElement.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetJointOffsets.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/DeleteTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GetDOF.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/PauseTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKd.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetTactileInputThreshold.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/AddTrajectory.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/JointTraj.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKi.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResetHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Reset.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/MoveHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetForceInputThreshold.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ResetFinger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/RelaxHand.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetSpeed.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/ArmConfigCheck.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/hydro/share/sensor_msgs/cmake/../msg/JointState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/GuardedMove.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/Joints.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlTorqLimit.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetExtraMass.srv"
+  "${MSG_I_FLAGS}"
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/msg/MassProperties.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetHandProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Idle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/SetStallSensitivity.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/Enable.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+_generate_srv_py(pr_msgs
+  "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/pr_msgs/srv/WamRequestSeaCtrlKp.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+)
+
+### Generating Module File
+_generate_module_py(pr_msgs
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+  "${ALL_GEN_OUTPUT_FILES_py}"
+)
+
+add_custom_target(pr_msgs_generate_messages_py
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_py}
+)
+add_dependencies(pr_msgs_generate_messages pr_msgs_generate_messages_py)
+
+# target for backward compatibility
+add_custom_target(pr_msgs_genpy)
+add_dependencies(pr_msgs_genpy pr_msgs_generate_messages_py)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pr_msgs_generate_messages_py)
+
+
+
+if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs)
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pr_msgs
+    DESTINATION ${gencpp_INSTALL_DIR}
+  )
+endif()
+add_dependencies(pr_msgs_generate_messages_cpp std_msgs_generate_messages_cpp)
+add_dependencies(pr_msgs_generate_messages_cpp geometry_msgs_generate_messages_cpp)
+add_dependencies(pr_msgs_generate_messages_cpp sensor_msgs_generate_messages_cpp)
+add_dependencies(pr_msgs_generate_messages_cpp actionlib_msgs_generate_messages_cpp)
+
+if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs)
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pr_msgs
+    DESTINATION ${genlisp_INSTALL_DIR}
+  )
+endif()
+add_dependencies(pr_msgs_generate_messages_lisp std_msgs_generate_messages_lisp)
+add_dependencies(pr_msgs_generate_messages_lisp geometry_msgs_generate_messages_lisp)
+add_dependencies(pr_msgs_generate_messages_lisp sensor_msgs_generate_messages_lisp)
+add_dependencies(pr_msgs_generate_messages_lisp actionlib_msgs_generate_messages_lisp)
+
+if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs)
+  install(CODE "execute_process(COMMAND \"/usr/bin/python\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs\")")
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pr_msgs
+    DESTINATION ${genpy_INSTALL_DIR}
+  )
+endif()
+add_dependencies(pr_msgs_generate_messages_py std_msgs_generate_messages_py)
+add_dependencies(pr_msgs_generate_messages_py geometry_msgs_generate_messages_py)
+add_dependencies(pr_msgs_generate_messages_py sensor_msgs_generate_messages_py)
+add_dependencies(pr_msgs_generate_messages_py actionlib_msgs_generate_messages_py)

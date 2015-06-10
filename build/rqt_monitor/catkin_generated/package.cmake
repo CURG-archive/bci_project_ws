@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_monitor")
+set(rqt_monitor_MAINTAINER "jaredweiss <jaredweiss@todo.todo>")
+set(rqt_monitor_DEPRECATED "")
+set(rqt_monitor_VERSION "0.0.0")
+set(rqt_monitor_BUILD_DEPENDS )
+set(rqt_monitor_RUN_DEPENDS )
+set(rqt_monitor_BUILDTOOL_DEPENDS "catkin")
