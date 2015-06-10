@@ -56,6 +56,7 @@
 [submodule "src/rviz"]
 	path = src/rviz
 	url = git@github.com:CURG/rviz.git
+	branch = hydro-devel
 [submodule "src/staubli"]
 	path = src/staubli
 	url = git@github.com:CURG/staubli.git
