@@ -55,7 +55,7 @@
 	url = git@github.com:CURG/rqt_monitor.git
 [submodule "src/rviz"]
 	path = src/rviz
-	url = git@github.com:CURG/rviz.git
+	url = https://github.com/CURG/rviz
 	branch = hydro-devel
 [submodule "src/staubli"]
 	path = src/staubli
