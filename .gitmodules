@@ -76,3 +76,6 @@
 [submodule "src/v4r_libraries"]
 	path = src/v4r_libraries
 	url = git@github.com:CURG/v4r_libraries.git
+[submodule "src/mock_graspit"]
+	path = src/mock_graspit
+	url = https://github.com/CURG/mock_graspit
