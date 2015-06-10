@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "barrett_model")
-set(barrett_model_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
-set(barrett_model_DEPRECATED "")
-set(barrett_model_VERSION "0.1.0")
-set(barrett_model_BUILD_DEPENDS )
-set(barrett_model_RUN_DEPENDS )
-set(barrett_model_BUILDTOOL_DEPENDS "catkin")

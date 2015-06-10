@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "staubli_barretthand_description")
-set(staubli_barretthand_description_MAINTAINER "Jon Weisz <Weisz@todo.todo>")
-set(staubli_barretthand_description_DEPRECATED "")
-set(staubli_barretthand_description_VERSION "0.0.1")
-set(staubli_barretthand_description_BUILD_DEPENDS "barrett_model" "staubli")
-set(staubli_barretthand_description_RUN_DEPENDS "barrett_model" "staubli")
-set(staubli_barretthand_description_BUILDTOOL_DEPENDS "catkin")

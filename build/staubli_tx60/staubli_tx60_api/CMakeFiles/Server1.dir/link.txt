@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC    -shared -Wl,-soname,libServer1.so -o /home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/lib/libServer1.so CMakeFiles/Server1.dir/src/soapCS8ServerV1Proxy.o 

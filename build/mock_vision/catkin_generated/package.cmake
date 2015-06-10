@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "mock_vision")
-set(mock_vision_MAINTAINER "jaredweiss <jaredweiss@todo.todo>")
-set(mock_vision_DEPRECATED "")
-set(mock_vision_VERSION "0.0.0")
-set(mock_vision_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
-set(mock_vision_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
-set(mock_vision_BUILDTOOL_DEPENDS "catkin")

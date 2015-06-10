@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "v4r_libraries")
-set(v4r_libraries_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
-set(v4r_libraries_DEPRECATED "")
-set(v4r_libraries_VERSION "1.0.0")
-set(v4r_libraries_BUILD_DEPENDS ""opencv2"" "roscpp")
-set(v4r_libraries_RUN_DEPENDS "opencv2")
-set(v4r_libraries_BUILDTOOL_DEPENDS "catkin")

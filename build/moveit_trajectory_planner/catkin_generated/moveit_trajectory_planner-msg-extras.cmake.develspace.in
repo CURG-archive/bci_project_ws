@@ -1,2 +1,0 @@
-set(moveit_trajectory_planner_MESSAGE_FILES "")
-set(moveit_trajectory_planner_SERVICE_FILES "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/moveit_trajectory_planner/srv/LocationInfo.srv;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/moveit_trajectory_planner/srv/BoxInfo.srv;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/moveit_trajectory_planner/srv/MeshInfo.srv;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/moveit_trajectory_planner/srv/ObjectName.srv")

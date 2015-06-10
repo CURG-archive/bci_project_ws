@@ -1,8 +1,0 @@
-prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel
-
-Name: staubli
-Description: Description of staubli
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/lib 
-Requires: 

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "staubli_tx60")
-set(staubli_tx60_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
-set(staubli_tx60_DEPRECATED "")
-set(staubli_tx60_VERSION "1.0.0")
-set(staubli_tx60_BUILD_DEPENDS "message_generation" "actionlib" "roscpp" "rospy" "roslib" "std_msgs" "actionlib_msgs" "roscpp_serialization" "roscpp_serialization")
-set(staubli_tx60_RUN_DEPENDS "message_runtime" "std_msgs" "actionlib_msgs")
-set(staubli_tx60_BUILDTOOL_DEPENDS "catkin")

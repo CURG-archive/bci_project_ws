@@ -1,8 +1,0 @@
-prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/install
-
-Name: mock_graspit
-Description: Description of mock_graspit
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/install/lib 
-Requires: 

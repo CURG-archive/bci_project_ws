@@ -1,2 +1,0 @@
-set(graspit_msgs_MESSAGE_FILES "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/graspit_msgs/msg/Grasp.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/graspit_msgs/msg/GraspStatus.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/graspit_msgs/msg/ObjectInfo.msg;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/graspit_msgs/msg/SceneInfo.msg")
-set(graspit_msgs_SERVICE_FILES "/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/graspit_msgs/srv/GetObjectInfo.srv;/home/mpcadosch/Dev/bci_ros/bci_project_ws/src/graspit_msgs/srv/AnalyzePose.srv")

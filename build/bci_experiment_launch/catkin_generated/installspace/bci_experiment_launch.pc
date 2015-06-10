@@ -1,8 +1,0 @@
-prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/install
-
-Name: bci_experiment_launch
-Description: Description of bci_experiment_launch
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/install/lib 
-Requires: 

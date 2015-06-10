@@ -1,8 +1,0 @@
-prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel
-
-Name: mock_vision
-Description: Description of mock_vision
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/devel/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/install
-
-Name: barrett_model
-Description: Description of barrett_model
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/install/lib 
-Requires: 

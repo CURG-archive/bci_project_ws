@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "mock_graspit")
-set(mock_graspit_MAINTAINER "jvarley <jvarley@todo.todo>")
-set(mock_graspit_DEPRECATED "")
-set(mock_graspit_VERSION "0.0.0")
-set(mock_graspit_BUILD_DEPENDS )
-set(mock_graspit_RUN_DEPENDS )
-set(mock_graspit_BUILDTOOL_DEPENDS "catkin")

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "graspit_python_node")
-set(graspit_python_node_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
-set(graspit_python_node_DEPRECATED "")
-set(graspit_python_node_VERSION "1.0.0")
-set(graspit_python_node_BUILD_DEPENDS "rospy" "graspit_msgs" "geometry_msgs" "tf" "tf_conversions" "trajectory_planner" "rostest")
-set(graspit_python_node_RUN_DEPENDS )
-set(graspit_python_node_BUILDTOOL_DEPENDS "catkin")

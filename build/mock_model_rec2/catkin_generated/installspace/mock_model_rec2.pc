@@ -1,8 +1,0 @@
-prefix=/home/mpcadosch/Dev/bci_ros/bci_project_ws/install
-
-Name: mock_model_rec2
-Description: Description of mock_model_rec2
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mpcadosch/Dev/bci_ros/bci_project_ws/install/lib 
-Requires: 
