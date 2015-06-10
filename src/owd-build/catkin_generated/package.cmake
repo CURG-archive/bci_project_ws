@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "owd")
+set(owd_MAINTAINER "Jake Varley <jvarley@cs.columbia.edu>")
+set(owd_DEPRECATED "")
+set(owd_VERSION "1.0.0")
+set(owd_BUILD_DEPENDS "roscpp" "std_msgs" "geometry_msgs" "pr_msgs" "sensor_msgs" "actionlib_msgs" "tf" "tf2" "blas" "lapack" "gfortran" "xenomai")
+set(owd_RUN_DEPENDS "message_runtime" "std_msgs" "geometry_msgs" "pr_msgs" "sensor_msgs" "actionlib_msgs")
+set(owd_BUILDTOOL_DEPENDS "catkin")
