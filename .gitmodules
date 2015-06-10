@@ -4,9 +4,6 @@
 [submodule "src/barrett_model"]
 	path = src/barrett_model
 	url = git@github.com:CURG/barrett_model.git
-[submodule "src/bci_experiment_launch"]
-	path = src/bci_experiment_launch
-	url = git@github.com:CURG/bci_experiment_launch.git
 [submodule "src/calibration"]
 	path = src/calibration
 	url = git@github.com:CURG/calibration.git
