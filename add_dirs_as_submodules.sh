@@ -11,11 +11,12 @@ do
     then
       cd $f
       DIR_NAME=${PWD##*/}
-      echo $DIR_NAME
+      #echo $DIR_NAME
       REPO_URL="$(git config --get remote.origin.url)"
+      #echo $REPO_URL
       BRANCH="$(git branch)"
       cd ../..
       git rm -rf --cached src/$DIR_NAME
-      git submodule add -f ${REPO_URL} src/$DIR_NAME
+      git submodule add -f ${REPO_URL} src/$DIR_NAME -b BRANCH
   fi
 done
