@@ -79,3 +79,4 @@
 [submodule "src/bci_experiment_launch"]
 	path = src/bci_experiment_launch
 	url = https://github.com/CURG/bci_experiment_launch.git
+	branch = mico-branch
