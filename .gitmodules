@@ -76,3 +76,6 @@
 [submodule "src/mock_graspit"]
 	path = src/mock_graspit
 	url = https://github.com/CURG/mock_graspit
+[submodule "src/bci_experiment_launch"]
+	path = src/bci_experiment_launch
+	url = https://github.com/CURG/bci_experiment_launch.git
